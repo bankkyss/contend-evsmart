@@ -1,0 +1,150 @@
+@import './Vars';
+// @import '~bulma/bulma.sass';;
+
+.map-view {
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+.title {
+    color:rgb(150, 153, 153)
+}
+.columns {
+    padding: 10px;
+    column-count: 2;
+}
+
+.is-4{
+    font-size: 1.5rem;
+}
+.is-6{
+    font-size: 1rem;
+}
+
+.marker-icon {
+    background-color: rgba(245, 21, 245, 0.8);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.list-view {
+    background-color:#19191a;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 55px;
+    bottom: 0;
+    left: 0;
+    width: 322px;
+    z-index: 30;
+}
+
+.list-view-brand, .list-view-total {
+    background-color: #19191a;
+    border-bottom: 1px solid #19191a;
+    flex-shrink: 0;
+    // padding: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.list-view-locations {
+    border-bottom: 1px solid #19191a;
+    flex-grow: 1;
+    position: relative;
+    overflow-y: auto;
+}
+
+
+
+.list-view label {
+    font-size: 1rem;
+    margin-right: 10px;
+    flex-shrink: 0; /* Prevent label from shrinking */
+    margin-bottom: 10px;
+  }
+
+.list-view {
+    background-color: #333; /* Dark background color */
+    padding: 20px;
+    color: white; /* Text color for dark mode */
+  }
+
+  .input-list-view {
+    display: flex;
+    flex-direction: column; /* Align inputs and labels in a row */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 15px; /* Add some spacing between rows */
+  }
+  
+  .list-view input[type="text"] {
+    height: 2.3rem;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #444; /* Darker input background color */
+    color: white; /* Text color for input */
+    border: none;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+
+  .button-polygon {
+    // margin-top: 15px;
+    display: flex;
+    justify-content: space-between; /* Distribute buttons evenly in the available space */
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%; /* Ensure buttons take full width */
+  }
+
+
+  .button-polygon button {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #686868;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background-color 0.3s ease;
+    flex-grow: 1; /* Make buttons take equal width */
+    // margin: 0 0px; /* Add some spacing between buttons */
+  }
+  .columns-buttom {
+    width: 48%;
+}
+  .button-polygon button:hover {
+    background-color: #0056b3;
+  }
+  .list-view h1 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .submit-button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #28a745; /* Green color for submit button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+
+  .div-submit-button {
+    display: flex;
+    justify-content: center; /* Center the submit button horizontally */
+    margin-top: 20px; /* Add some spacing at the top */
+  }

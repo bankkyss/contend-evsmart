@@ -1,0 +1,27 @@
+
+
+.select-list-view select {
+  background-color: #444;
+  padding: 10px;
+  color: #fff;
+  font-size: 16px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  width: 100%;
+}
+.select-list-view {
+    line-height:40px;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.select-list-view select option {
+    background-color: #333; /* Darker background color for options */
+    color: #fff; /* Light text color for options */
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #444; /* Border between options */
+  }
+
+
