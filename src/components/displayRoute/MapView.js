@@ -41,7 +41,7 @@ function MapView(props) {
             <TileLayer 
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" // normal
-                url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+                url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=046c5e7b-674b-43a0-bc50-06f386efd154"
                 // url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png" //white
             />
             {markerElement}
