@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/contend-evsmart/static/css/main.e22ca3a2.css",
-    "main.js": "/contend-evsmart/static/js/main.7c15f74e.js",
+    "main.js": "/contend-evsmart/static/js/main.5c2da90a.js",
     "static/media/logo2018-w.png": "/contend-evsmart/static/media/logo2018-w.b47b39a8274f4fba7231.png",
     "index.html": "/contend-evsmart/index.html",
     "main.e22ca3a2.css.map": "/contend-evsmart/static/css/main.e22ca3a2.css.map",
-    "main.7c15f74e.js.map": "/contend-evsmart/static/js/main.7c15f74e.js.map"
+    "main.5c2da90a.js.map": "/contend-evsmart/static/js/main.5c2da90a.js.map"
   },
   "entrypoints": [
     "static/css/main.e22ca3a2.css",
-    "static/js/main.7c15f74e.js"
+    "static/js/main.5c2da90a.js"
   ]
 }
